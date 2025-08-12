@@ -5,7 +5,7 @@ const AppFooter = () => {
     return (
         <div>
               <Footer container className="rounded-none">
-      <FooterCopyright href="#" by="Flowbite™" year={2022} />
+      <FooterCopyright href="#" by="Linkon Tripura" year={2025} />
       <FooterLinkGroup>
         <FooterLink href="#about">About</FooterLink>
         <FooterLink href="#contact">Contact</FooterLink>
