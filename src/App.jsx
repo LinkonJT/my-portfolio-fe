@@ -4,6 +4,8 @@ import './App.css'
 import AppNavbar from './components/Shared/AppNavbar'
 import AppFooter from './components/Shared/AppFooter'
 import HeroSection from './components/Banner/HeroSection'
+import About from './components/About'
+import Skills from './components/Skills'
 
 
 function App() {
@@ -18,6 +20,12 @@ function App() {
 
 <section id="home">
 <HeroSection></HeroSection>
+</section>
+<section id="about">
+  <About></About>
+</section>
+<section id="skills">
+  <Skills></Skills>
 </section>
       
     </main>
