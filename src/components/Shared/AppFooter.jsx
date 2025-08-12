@@ -7,10 +7,8 @@ const AppFooter = () => {
               <Footer container className="rounded-none">
       <FooterCopyright href="#" by="Flowbite™" year={2022} />
       <FooterLinkGroup>
-        <FooterLink href="#">About</FooterLink>
-        <FooterLink href="#">Privacy Policy</FooterLink>
-        <FooterLink href="#">Licensing</FooterLink>
-        <FooterLink href="#">Contact</FooterLink>
+        <FooterLink href="#about">About</FooterLink>
+        <FooterLink href="#contact">Contact</FooterLink>
       </FooterLinkGroup>
     </Footer>
         </div>

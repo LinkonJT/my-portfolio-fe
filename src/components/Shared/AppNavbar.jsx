@@ -14,15 +14,15 @@ const AppNavbar = () => {
         <NavbarToggle />
       </div>
       <NavbarCollapse>
-        <NavbarLink href="#" active>
+        <NavbarLink href="#home" active>
           Home
         </NavbarLink>
-        <NavbarLink href="#">About Me</NavbarLink>
-        <NavbarLink href="#">Skills</NavbarLink>
-        <NavbarLink href="#">Project</NavbarLink>
-        <NavbarLink href="#">Education</NavbarLink>
-        <NavbarLink href="#">Experience</NavbarLink>
-        <NavbarLink href="#">Contact</NavbarLink>
+        <NavbarLink href="#about">About Me</NavbarLink>
+        <NavbarLink href="#skills">Skills</NavbarLink>
+        <NavbarLink href="#projects">Projects</NavbarLink>
+        <NavbarLink href="#education">Education</NavbarLink>
+        <NavbarLink href="#experience">Experience</NavbarLink>
+        <NavbarLink href="#contact">Contact</NavbarLink>
       </NavbarCollapse>
     </Navbar>
     );
