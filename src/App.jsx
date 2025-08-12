@@ -7,6 +7,7 @@ import HeroSection from './components/Banner/HeroSection'
 import About from './components/About'
 import Skills from './components/Skills'
 import Education from './components/Education'
+import Experience from './components/Experience'
 
 
 function App() {
@@ -30,6 +31,9 @@ function App() {
 </section>
 <section id="education">
   <Education></Education>
+</section>
+<section id="experience">
+  <Experience></Experience>
 </section>
       
     </main>
