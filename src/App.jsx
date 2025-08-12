@@ -6,6 +6,7 @@ import AppFooter from './components/Shared/AppFooter'
 import HeroSection from './components/Banner/HeroSection'
 import About from './components/About'
 import Skills from './components/Skills'
+import Education from './components/Education'
 
 
 function App() {
@@ -26,6 +27,9 @@ function App() {
 </section>
 <section id="skills">
   <Skills></Skills>
+</section>
+<section id="education">
+  <Education></Education>
 </section>
       
     </main>

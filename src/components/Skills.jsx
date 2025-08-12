@@ -11,7 +11,7 @@ const Skills = () => {
        <Card>
     <div className="mx-auto py-4">
   
-         <h2 className="text-lg md:text-3xl font-bold mb-12 text-center text-blue-600">
+         <h2 className="text-lg md:text-3xl text-blue-600 font-bold mb-12 text-center">
         Skills
       </h2>
 
