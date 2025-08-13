@@ -16,7 +16,7 @@ const AppNavbar = () => {
         <NavbarLink href="#home" active>
           Home
         </NavbarLink>
-        <NavbarLink href="#about">About Me</NavbarLink>
+        <NavbarLink href="#about" className="!hover:text-blue-600">About Me</NavbarLink>
         <NavbarLink href="#skills">Skills</NavbarLink>
         <NavbarLink href="#projects">Projects</NavbarLink>
         <NavbarLink href="#education">Education</NavbarLink>

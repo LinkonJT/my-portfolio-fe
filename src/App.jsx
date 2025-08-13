@@ -17,7 +17,7 @@ function App() {
 
   return (
     <>
-   <div className='flex flex-col min-h-screen bg-gray-500 '>
+   <div className='flex flex-col min-h-screen bg-blue-900'>
 
      <AppNavbar></AppNavbar>
     <main className='flex-grow max-w-10/12 mx-auto'>
