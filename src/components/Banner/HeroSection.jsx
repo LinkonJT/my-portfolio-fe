@@ -33,9 +33,9 @@ const HeroSection = () => {
 
           <div className="flex flex-wrap items-center justify-between gap-4 mb-4">
             <a
-              href="https://drive.google.com/file/d/1RN1_IMhG1d_dPacdkguIuH0lqzz_DotZ/view?usp=drive_link"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="/resume.pdf"
+  download="Linkon_Tripura_Resume.pdf"
+              
               className="inline-block bg-indigo-600 text-white px-6 py-3 rounded-md hover:bg-indigo-700 transition"
             >
               Download Resume
