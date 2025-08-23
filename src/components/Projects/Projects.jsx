@@ -71,7 +71,7 @@ const Projects = () => {
     <h5 className="mt-4 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
       {project.name}
     </h5>
-    <Button onClick={() => handleOpen(project)} className="mt-4">
+    <Button onClick={() => handleOpen(project)} className="mt-4 ">
       Details
       <svg
         className="-mr-1 ml-2 h-4 w-4"
