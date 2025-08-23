@@ -17,40 +17,40 @@ function App() {
 
   return (
     <>
-   <div className='flex flex-col min-h-screen bg-blue-900'>
+     <div className='flex flex-col min-h-screen bg-blue-900'>
 
      <AppNavbar></AppNavbar>
     <main className='flex-grow max-w-10/12 mx-auto'>
 
-<section id="home">
-<HeroSection></HeroSection>
-</section>
-<section id="about">
-  <About></About>
-</section>
-<section id="skills">
-  <Skills></Skills>
-</section>
-<section id="education">
-  <Education></Education>
-</section>
-<section id="experience">
-  <Experience></Experience>
-</section>
-<section id="projects">
-  <Projects></Projects>
-</section>
+  <section id="home" className="scroll-mt-16">
+    <HeroSection></HeroSection>
+  </section>
+  <section id="about" className="scroll-mt-13">
+    <About></About>
+  </section>
+  <section id="skills" className="scroll-mt-13">
+    <Skills></Skills>
+  </section>
+  <section id="education" className="scroll-mt-13">
+    <Education></Education>
+  </section>
+  <section id="experience" className="scroll-mt-13">
+    <Experience></Experience>
+  </section>
+  <section id="projects" className="scroll-mt-13">
+    <Projects></Projects>
+  </section>
       
-<section id="contact">
-  <Contact></Contact>
-</section>
+  <section id="contact" className="scroll-mt-13">
+    <Contact></Contact>
+  </section>
       
     </main>
       
       <AppFooter></AppFooter>
-   </div>
+     </div>
     </>
-  )
+    )
 }
 
 export default App
