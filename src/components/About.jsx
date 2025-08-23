@@ -3,8 +3,8 @@ import { Card } from 'flowbite-react';
 
 const About = () => {
   return (
-    <Card className="bg-white dark:bg-gray-800 mx-auto my-5 py-2">
-      <h2 className="text-xl text-center md:text-3xl font-bold tracking-tight  text-blue-600 mb-2">
+    <Card className="bg-white dark:bg-gray-800 mx-auto my-5">
+      <h2 className="text-2xl text-center md:text-3xl font-bold tracking-tight  text-blue-600 mb-3">
         About Me
       </h2>
 

@@ -57,7 +57,7 @@ const Projects = () => {
   return (
     <>
       <Card className="mt-4">
-        <h2 className="text-lg md:text-3xl text-blue-600 font-bold mb-6 text-center">
+        <h2 className="text-2xl text-center md:text-3xl text-blue-600 font-bold mb-3">
           Projects
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">

@@ -3,8 +3,8 @@ import { Card } from "flowbite-react";
 
 const Education = () => {
   return (
-    <Card className="mt-4 mx-auto p-4">
-      <h2 className="text-lg md:text-3xl text-blue-600 font-bold mb-6 text-center">Educational Qualification</h2>
+    <Card className="mx-auto mt-4">
+      <h2 className="text-2xl text-center md:text-3xl text-blue-600 font-bold mb-3">Educational Qualification</h2>
       
       {/* Post Grad Diploma */}
       <Card className="mb-4">
