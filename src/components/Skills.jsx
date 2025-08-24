@@ -4,7 +4,7 @@ import { motion } from "framer-motion"; // Correct import for motion
 
 const Skills = () => {
   const cardClasses =
-    'w-28 sm:w-36 md:w-40 h-full flex flex-col items-center text-center';
+    'w-28 md:w-40 md:h-full h-35 flex flex-col items-center text-center';
   const imgWrapperClasses = 'h-20 sm:h-24 md:h-28 flex items-center justify-center';
   const imgClasses = 'max-h-full object-contain rounded-md';
 
