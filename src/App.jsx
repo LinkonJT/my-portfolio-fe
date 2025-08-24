@@ -10,6 +10,7 @@ import Education from './components/Education'
 import Experience from './components/Experience'
 import Projects from './components/Projects/Projects'
 import Contact from './components/Contact'
+import TestMotion from './components/testMotion'
 
 
 function App() {
