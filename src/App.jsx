@@ -11,6 +11,7 @@ import Experience from './components/Experience'
 import Projects from './components/Projects/Projects'
 import Contact from './components/Contact'
 import TestMotion from './components/testMotion'
+import GoTop from './components/GoTop'
 
 
 function App() {
@@ -45,7 +46,9 @@ function App() {
   <section id="contact" className="scroll-mt-16 md:scroll-mt-13">
     <Contact></Contact>
   </section>
-      
+
+
+        <GoTop ></GoTop>
     </main>
       
       <AppFooter></AppFooter>

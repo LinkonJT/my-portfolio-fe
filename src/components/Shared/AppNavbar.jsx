@@ -4,7 +4,8 @@ import { Button, Navbar, NavbarBrand, NavbarCollapse, NavbarLink, NavbarToggle }
 
 const AppNavbar = () => {
     return (
-           <Navbar fluid className="sticky top-0 z-30 dark:bg-gray-900 shadow-lg">
+     <section id='navbar'>
+            <Navbar fluid  className="sticky top-0 z-30 dark:bg-gray-900 shadow-lg">
       <NavbarBrand href="https://flowbite-react.com">
         {/* <img src="/favicon.svg" className="mr-3 h-6 sm:h-9" alt="Flowbite React Logo" /> */}
         <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">LinkonJT</span>
@@ -16,7 +17,7 @@ const AppNavbar = () => {
         <NavbarLink href="#home" active>
           Home
         </NavbarLink>
-        <NavbarLink href="#about" className="!hover:text-blue-600">About Me</NavbarLink>
+        <NavbarLink href="#about">About Me</NavbarLink>
         <NavbarLink href="#skills">Skills</NavbarLink>
         <NavbarLink href="#projects">Projects</NavbarLink>
         <NavbarLink href="#education">Education</NavbarLink>
@@ -24,6 +25,7 @@ const AppNavbar = () => {
         <NavbarLink href="#contact">Contact</NavbarLink>
       </NavbarCollapse>
     </Navbar>
+     </section>
     );
 };
 
