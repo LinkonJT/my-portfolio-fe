@@ -1,17 +1,34 @@
-import { Navbar, NavbarLink } from 'flowbite-react';
-import React from 'react';
+import { Button } from "flowbite-react";
 import { GoMoveToTop } from "react-icons/go";
 
 const GoTop = () => {
-    return (
+  
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth', // smooth scroll
+    });
+  };
 
-          <Navbar rounded className='mb-2 max-w-20 mx-auto list-none'>
-            <NavbarLink href="#navbar" className='flex items-center justify-center'>Top<GoMoveToTop /></NavbarLink>
-          </Navbar>
-            
-           
-       
-    );
+  return (
+
+    //this will keep the button on the right side 
+    // <button 
+    //   onClick={scrollToTop}
+    //   className="fixed bottom-20 top-140 right-5 flex items-center gap-2 bg-blue-600 text-white px-4 py-2 rounded-full shadow-lg hover:bg-blue-700 transition"
+    // >
+    //   Top <GoMoveToTop />
+    // </button>
+
+    <div className="relative w-full h-full mt-11">
+      <button
+        onClick={scrollToTop}
+        className="absolute bottom-0 right-38 md:right-148 bg-blue-600 text-white px-4 py-2 rounded-full shadow-lg hover:bg-blue-700 transition flex items-center gap-2"
+      >
+        Top <GoMoveToTop className="w-5 h-5 md:w-6 md:h-6" />
+      </button>
+    </div>
+  );
 };
 
 export default GoTop;

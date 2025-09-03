@@ -45,10 +45,13 @@ function App() {
       
   <section id="contact" className="scroll-mt-16 md:scroll-mt-13">
     <Contact></Contact>
+
   </section>
 
 
-        <GoTop ></GoTop>
+
+          
+          <GoTop ></GoTop>
     </main>
       
       <AppFooter></AppFooter>

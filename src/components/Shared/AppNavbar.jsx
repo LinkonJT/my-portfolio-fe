@@ -1,10 +1,14 @@
 import React from 'react';
-import { Button, Navbar, NavbarBrand, NavbarCollapse, NavbarLink, NavbarToggle } from "flowbite-react";
+import { Button, createTheme, Navbar, NavbarBrand, NavbarCollapse, NavbarLink, NavbarToggle } from "flowbite-react";
 
 
 const AppNavbar = () => {
+
+
+
+
     return (
-     <section id='navbar'>
+    
             <Navbar fluid  className="sticky top-0 z-30 dark:bg-gray-900 shadow-lg">
       <NavbarBrand href="https://flowbite-react.com">
         {/* <img src="/favicon.svg" className="mr-3 h-6 sm:h-9" alt="Flowbite React Logo" /> */}
@@ -25,7 +29,7 @@ const AppNavbar = () => {
         <NavbarLink href="#contact">Contact</NavbarLink>
       </NavbarCollapse>
     </Navbar>
-     </section>
+     
     );
 };
 
