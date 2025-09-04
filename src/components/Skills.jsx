@@ -13,7 +13,7 @@ const Skills = () => {
     <motion.div
       whileHover={{ scale: 1.1, boxShadow: "0px 0px 20px rgba(0,0,0,0.2)" }}
       transition={{ type: "spring", stiffness: 300 }}
-      className=" p-0 md:p-0.5 bg-blue-500 text-white rounded-md md:rounded-xl cursor-pointer"
+      className=" p-0 md:p-0.5 bg-sky-600 dark:bg-sky-700 text-white rounded-md md:rounded-xl cursor-pointer"
       // animate={{
       //   scale: 1,
       //   rotate: 0,
@@ -38,13 +38,13 @@ const Skills = () => {
   return (
     <Card>
       <div className="mx-auto py-2">
-        <h2 className="text-2xl md:text-3xl text-blue-600 font-bold text-center mb-3">
+        <h2 className="text-2xl md:text-3xl text-sky-700 dark:text-sky-600  font-bold text-center mb-3">
           Skills
         </h2>
 
         {/* Frontend */}
         <div className="mb-12">
-          <h3 className="text-lg md:text-2xl font-semibold mb-8 text-gray-200">Frontend</h3>
+          <h3 className="text-lg md:text-xl font-semibold mb-8 text-sky-600">Frontend</h3>
           <div className="grid grid-cols-3 lg:grid-cols-6 gap-6">
             <MotionCard>
               <Card className={cardClasses}>
@@ -99,7 +99,7 @@ const Skills = () => {
 
         {/* Backend */}
         <div className="mb-12">
-          <h3 className="text-lg md:text-2x font-semibold mb-8 text-gray-200">Backend</h3>
+          <h3 className="text-lg md:text-xl font-semibold mb-8 text-sky-600">Backend</h3>
           <div className="grid grid-cols-3 lg:grid-cols-6 gap-6">
             <MotionCard>
               <Card className={cardClasses}>
@@ -130,7 +130,7 @@ const Skills = () => {
 
         {/* Tools */}
         <div>
-          <h3 className="text-lg md:text-2x font-semibold mb-8 text-gray-200">Tools</h3>
+          <h3 className="text-lg md:text-2xl font-semibold mb-8 text-sky-600">Tools</h3>
           <div className="grid grid-cols-3 lg:grid-cols-6 gap-6">
             <MotionCard>
               <Card className={cardClasses}>

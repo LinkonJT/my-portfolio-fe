@@ -57,7 +57,7 @@ const Projects = () => {
   return (
     <>
       <Card className="mt-4">
-        <h2 className="text-2xl text-center md:text-3xl text-blue-600 font-bold mb-3">
+        <h2 className="text-2xl text-center md:text-3xl text-sky-600 font-bold mb-3">
           Projects
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -71,7 +71,7 @@ const Projects = () => {
     <h5 className="mt-4 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
       {project.name}
     </h5>
-    <Button onClick={() => handleOpen(project)} className="mt-4 ">
+    <Button onClick={() => handleOpen(project)} className="mt-4  hover:bg-sky-500 dark:hover:bg-sky-600 bg-sky-700 dark:bg-sky-700 ">
       Details
       <svg
         className="-mr-1 ml-2 h-4 w-4"
@@ -147,7 +147,7 @@ const Projects = () => {
 </ModalBody>
 
           <ModalFooter>
-            <Button onClick={handleClose}>Close</Button>
+            <Button onClick={handleClose} className=" hover:bg-sky-500 dark:hover:bg-sky-600 bg-sky-700 dark:bg-sky-700">Close</Button>
           </ModalFooter>
         </Modal>
       )}

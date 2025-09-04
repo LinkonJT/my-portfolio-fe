@@ -29,7 +29,7 @@ const HeroSection = () => {
 
 
         <div className="flex-1">
-          <h1 className="text-2xl md:text-4xl font-bold text-blue-600 mb-3">
+          <h1 className="text-2xl md:text-4xl font-bold text-sky-700 dark:text-sky-600 mb-3">
             <Typewriter
               options={{
                 strings: ["MERN-Stack Developer", "Front-End Developer"],
@@ -51,18 +51,18 @@ const HeroSection = () => {
             <a
               href="/resume.pdf"
               download="Linkon_Tripura_Resume.pdf"
-              className="inline-block bg-indigo-600 text-white px-6 py-3 rounded-md hover:bg-indigo-700 transition">
+              className="inline-block hover:bg-sky-500 dark:hover:bg-sky-600 bg-sky-700 text-white px-6 py-3 rounded-md  transition">
               Download Resume
             </a>
 
             {/* Social Icons */}
-            <div className="flex space-x-4 text-indigo-600 text-2xl">
+            <div className="flex space-x-4 text-sky-700 text-2xl">
               <a
                 href="https://github.com/LinkonJT"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="GitHub"
-                className="hover:text-indigo-800">
+                className="hover:text-sky-500">
                 <FaGithub />
               </a>
               <a
@@ -70,7 +70,7 @@ const HeroSection = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="LinkedIn"
-                className="hover:text-indigo-800">
+                className="hover:text-sky-500">
                 <FaLinkedin />
               </a>
               <a
@@ -78,7 +78,7 @@ const HeroSection = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Twitter"
-                className="hover:text-indigo-800">
+                className="hover:text-sky-500">
                 <FaTwitter />
               </a>
             </div>

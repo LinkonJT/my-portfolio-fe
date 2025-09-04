@@ -3,7 +3,7 @@ import { Card } from "flowbite-react";
 const Experience = () => {
   return (
     <Card className="mt-4 mx-auto">
-      <h2 className="text-2xl text-center md:text-3xl text-blue-600 font-bold">
+      <h2 className="text-2xl text-center md:text-3xl text-sky-600 font-bold">
         Experience
       </h2>
 
@@ -11,7 +11,7 @@ const Experience = () => {
       <Card>
 
         <div className="mb-8">
-        <h3 className="text-lg md:text-2xl font-semibold text-indigo-600 mb-3">
+        <h3 className="text-lg md:text-2xl font-semibold text-sky-600 mb-3">
           Business Development Representative (BDR)
         </h3>
         <p className="text-gray-700 dark:text-gray-300">
@@ -30,7 +30,7 @@ const Experience = () => {
       {/* Sales Representative - Connect6 */}
     <Card>
           <div>
-        <h3 className="text-lg md:text-2xl  font-semibold text-indigo-600">
+        <h3 className="text-lg md:text-2xl  font-semibold text-sky-600">
           Sales Representative
         </h3>
         <p className="text-gray-700 dark:text-gray-300">

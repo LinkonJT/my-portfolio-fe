@@ -4,7 +4,6 @@
 @source "../.flowbite-react/class-list.json";
 
 
-
 /* Smooth scrolling for the whole page */
 html {
   scroll-behavior: smooth;

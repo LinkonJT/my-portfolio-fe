@@ -12,6 +12,7 @@ import Projects from './components/Projects/Projects'
 import Contact from './components/Contact'
 import TestMotion from './components/testMotion'
 import GoTop from './components/GoTop'
+import { DarkThemeToggle } from 'flowbite-react'
 
 
 function App() {
@@ -19,11 +20,12 @@ function App() {
 
   return (
     <>
-     <div className='flex flex-col min-h-screen bg-blue-900'>
+     <div className='flex flex-col min-h-screen bg-radial-[at_80%_20%] from-sky-700 to-zinc-900 to-120% '>
 
      <AppNavbar></AppNavbar>
     <main className='flex-grow w-full md:max-w-10/12 mx-auto'>
 
+  
   <section id="home" className="scroll-mt-16">
     <HeroSection></HeroSection>
   </section>
